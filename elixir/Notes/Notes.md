@@ -22,5 +22,6 @@ end
 
 ```
 
-Example usage
-`MyModule.combined_function_piped(5) # Returns 20 (5 * 2 + 10)` 
+Example usage:
+
+    MyModule.combined_function_piped(5) # Returns 20 (5 * 2 + 10) 
