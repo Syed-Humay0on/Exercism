@@ -14,6 +14,8 @@ defmodule FreelancerRates do
   end
 
   def days_in_budget(budget, hourly_rate, discount) do
-    # Please implement the days_in_budget/3 function
+    daily_rate = daily_rate(hourly_rate)
+    discounted = apply_discount(daily_rate, discount)
+    budget/discounted 
   end
 end
