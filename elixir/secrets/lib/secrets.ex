@@ -14,7 +14,7 @@ defmodule Secrets do
   end
 
   def secret_divide(secret) do
-    fn divider -> divider / secret end
+    fn divider -> div(divider , secret) end
   end
 
   def secret_and(secret) do
