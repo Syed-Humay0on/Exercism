@@ -8,10 +8,10 @@ defmodule HighSchoolSweetheart do
   end
 
   def initials(full_name) do
-  case String.split(full_name) do
-  [single_word] -> "#{initial(single_word)}"
-  [first_word, last_word] -> "#{initial(first_word)} #{initial(last_word)}"
-  end
+    case String.split(full_name) do
+      [single_word] -> "#{initial(single_word)}"
+      [first_word, last_word] -> "#{initial(first_word)} #{initial(last_word)}"
+    end
 
     # words = String.split(full_name)
     # second_word = Enum.at(words, 1)
